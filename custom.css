@@ -1,0 +1,53 @@
+.container {
+    background-color: #fccf66;
+    padding: 0 0 0 50px;
+    max-width: 800px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+    top: 4px;
+    font-size: 12px;
+}
+
+#header {
+    position: relative;
+    background-color: #fccf66;
+    padding: 10px;
+}
+
+.selector {
+    background-color: #fff;
+    width: 120px;
+    float: right;
+    clear: right;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.radio {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+p {
+    float: right;
+    margin: 5px 5px 5px 0;
+}
+
+.active {
+    background-color: #ff0f00;
+}

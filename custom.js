@@ -44,5 +44,15 @@ $(document).ready(function() {
     $(".selector").on("click", function() {
         $(".selector").removeClass("active");
         $(this).addClass("active");
+        var current = $(this).attr('id');
+        if (current === 'all') {
+            $('.online, .offline').removeClass('hidden');
+        } else if (current === 'online') {
+            $('.online').removeClass('hidden');
+            $('.offline').addClass('hidden');
+        } else {
+            $('.online').addClass('hidden');
+            $('.offline').removeClass('hidden');
+        }
     });
 });

@@ -1,8 +1,10 @@
 .container {
-    background-color: #fccf66;
-    padding: 0 0 0 50px;
-    max-width: 800px;
+    background-color: #00628B;
+    padding: 0 15px 10px 50px;
+    max-width: 750px;
     margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -10,6 +12,7 @@ h1 {
     text-align: left;
     text-transform: uppercase;
     margin: 15px 0;
+    color: #E6E6DC;
 }
 
 .menu {
@@ -21,7 +24,8 @@ h1 {
 
 #header {
     position: relative;
-    background-color: #fccf66;
+    background-color: #00628B;
+    margin-left: -20px;
     padding: 10px;
 }
 
@@ -46,8 +50,32 @@ h1 {
 p {
     float: right;
     margin: 5px 5px 5px 0;
+    color: #000;
 }
 
 .active {
     background-color: #ff0f00;
+}
+
+
+.streamer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 30%;
+}
+
+.online {
+    background-color: lightgreen;
+}
+
+.offline {
+    background-color: lightblue;
 }

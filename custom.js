@@ -28,9 +28,9 @@ function getChannelInfo(name) {
                 desc = status === 'online' ? info.status : '';
             html += "<div class='streamer row " + status + "'><div class='col-xs-2'><img src='" +
                 logo + "' class='logo'></img></div><div class='col-xs-10 name'><a href='" +
-                info.url + "' target='_blank'>" + name +
-                "</a></div><div class='col-xs-10'>" + game + '<span class="hidden-xs">' +
-                desc + '</span></div></div>';
+                info.url + "' target='_blank'><strong>" + name +
+                "</strong></a></div><div class='col-xs-10'><i>" + game + '<span class="hidden-xs">' +
+                desc + '</i></span></div></div>';
                 if (status === 'online')
                     $('#streamers').prepend(html);
                 else $('#streamers').append(html);
